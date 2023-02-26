@@ -9,6 +9,7 @@ public final class DriverManager {
 
     private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
+
     public static void setDriver(WebDriver driver) {
         driverThreadLocal.set(driver);
     }
